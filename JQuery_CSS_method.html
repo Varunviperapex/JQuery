@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <link type="text/css" rel="stylesheet" href="style.css">
+ 
+</head>
+ 
+<body>
+ 
+ 
+ 
+ 
+               
+        <div id="left">
+                <h2>Left Content Area</h2>
+                <p>This area will contain the left content area.  We will populate this area with images and text. </p>
+        </div>
+        <ul>
+            <li>Bobcats</li>
+            <li>Wildcats</li>
+        </ul>
+       
+        <div id="center">
+                <h2>Center Content Area</h2>
+                <p>This area will contain the center content area.  This area will contain the main articles. </p>
+        </div>
+ 
+        <div id="right">
+                <b>Right Content Area</b>
+                <p>This area will contain the right content area. We will populate this area with links and text.</p>
+               
+        </div>
+    <div id="test">
+        <button>Hit button to change something
+        </button>
+    </div>
+ 
+       
+ 
+ 
+ <script src="jquery-3.2.1.min.js"></script>
+<script>
+$(document).ready(function(){
+    
+    $("button").click(function(){
+      
+    $("#left").css("color","blue");
+    $("#left").css({"border" :"solid 2px red"});
+    
+    
+    
+});    
+    });
+</script>
+ 
+     
+</body>
+</html>
